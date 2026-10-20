@@ -1,0 +1,21 @@
+# secrets & keys — never commit
+secrets.env
+.env.local
+*.key
+*_api_key*
+**/credentials
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local run artifacts / scratch
+runs/*.jsonl
+scratch/
+*.log
+
+# os
+.DS_Store
