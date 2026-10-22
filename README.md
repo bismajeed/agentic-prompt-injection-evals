@@ -118,3 +118,20 @@ level needed to explain the defense, not to hand someone a turnkey exploit.
 ## Author
 
 **Bisma Majeed** — AI red-teaming & evaluations.
+
+## Paper
+The write-up is in [`paper/Output_Gate_Holds_Majeed.pdf`](paper/Output_Gate_Holds_Majeed.pdf),
+with a line-by-line evidence appendix in
+[`paper/Output_Gate_Holds_Supplementary_Log.pdf`](paper/Output_Gate_Holds_Supplementary_Log.pdf).
+
+## Reproducibility
+Every number, table, and figure in the paper regenerates from the released logs — nothing is
+typed by hand.
+
+```
+python generators/make_paper.py   # reads data/*.jsonl -> paper HTML (render to PDF with weasyprint)
+python generators/make_log.py     # -> supplementary attempt log
+```
+
+- `data/run_log.jsonl` — every agent run (tools, posted text, errors); real provider keys redacted
+- `data/adaptive_trace.jsonl` — every adaptive turn (payload, diagnosis, flags)
