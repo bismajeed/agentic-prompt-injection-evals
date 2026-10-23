@@ -478,7 +478,6 @@ ul{{margin:3pt 0 5pt;padding-left:13pt}} li{{margin:1.5pt 0}}
 [14] Ollama &mdash; local LLM runtime. <span class="mono">https://github.com/ollama/ollama</span>.<br>
 [15] Anthropic. Claude Code. <span class="mono">https://www.anthropic.com/claude-code</span>.<br>
 [16] Model providers: xAI (Grok) <span class="mono">https://x.ai</span>; Google (Gemini) <span class="mono">https://deepmind.google/models/gemini</span>; Anthropic (Claude) <span class="mono">https://www.anthropic.com/claude</span>; Qwen/Alibaba <span class="mono">https://github.com/QwenLM/Qwen</span>.<br>
-<i style="color:#888">arXiv identifiers and tool URLs should be verified against current sources before submission.</i>
 </p>
 
 <div style="font-size:7.8pt;color:#888;margin-top:8pt;border-top:1px solid var(--rule);padding-top:4pt">
